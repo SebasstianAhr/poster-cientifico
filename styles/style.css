@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    border: solid 2px springgreen;
+}
+
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 3rem;
+    border-bottom: solid 2px springgreen;
+
+}
+.title-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+h1, .paragraph-title{
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 1px;
+
+}
+
+h1{
+    font-size: 30px;
+    color: springgreen;
+}
+
+h2{
+    margin: 3rem 0 1rem 0;
+}
+.img-logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.img-titulo{
+    width: 100px;
+    
+}
+
+.img-titulo:nth-child(2){
+    width: 200px;
+}
+
+.img-titulo:nth-child(3){
+    width: 150px;
+}
+
+/* CONTAINER2 */
+
+.container2{
+    display: flex;
+    justify-content: center;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.left , .right {
+    width: 50%;
+    
+}
+
+.bibliography{
+    overflow: hidden;
+}
+
+.left{
+    border-right:  solid 1px springgreen;
+}
+
+.right{
+    border-left: solid 1px springgreen;   
+}
+
+h3, h4{
+    padding-bottom: 1rem;
+    text-align: center;
+    
+}   
+
+
+.border-bottom{
+    border-bottom: solid 2px springgreen;
+}
+
+.padding{
+    padding: 2rem;
+}
+
+.paragraph-text{
+    padding-bottom: 1rem;
+}
+
+a{
+    color: springgreen;
+}
+
+li{
+    padding-bottom: 1rem;
+}
+
